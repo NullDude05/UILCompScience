@@ -6,7 +6,7 @@ public class DanielTriangles {
     String[] Quotes = {SteveMartin, SamuelBeckett, Muhammedquote};
 
     public void quoteTriangle() {
-        for (var pick: Quotes) {
+        for (String pick: Quotes) {
             for(int i =0; i < pick.length(); i++) {
                 switch (pick) {
 

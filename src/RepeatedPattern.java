@@ -1,4 +1,4 @@
-import java.util.Random;
+
 
 public class RepeatedPattern {
 
@@ -11,7 +11,7 @@ public class RepeatedPattern {
 
 
     public void RepeatLetter() {
-        for (var pick: letters) {
+        for (String pick: letters) {
             for (int i = 1; i <= 30; i++) {
                 letterappend += pick;
                 if (letterappend.length() == 30) {

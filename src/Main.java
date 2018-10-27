@@ -1,6 +1,8 @@
 public class Main {
 
-    public static void main(String args[]) {
+    @SuppressWarnings("unused")
+    //For now ^^^
+	public static void main(String args[]) {
         RepeatedPattern Project1 = new RepeatedPattern();
         Abdul Project2 = new Abdul();
         Geming Project3 = new Geming();
